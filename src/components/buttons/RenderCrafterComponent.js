@@ -13,7 +13,6 @@ export default function RenderCrafterComponent(props) {
     if (!crafterComponent && !error) {
       const endpoint = process.env.REACT_APP_CRAFTER_BASE_URL + `/api/1/services/vinpro/components/render-component.json?crafterSite=${site}&path=${path}`
       const init = {
-        mode: 'cors',
         headers: {},
       }
       fetch(endpoint, init)
