@@ -92,3 +92,21 @@ like `npmjs.com` but for now the components are here.
 
 ## Known Issues
 None yet.
+
+## Local Setup
+To do the production build project you can do a yarn build and the build folder will be created inside the project. 
+
+Then you can do :  yarn global add serve
+				   serve -s build
+
+Initially it will give an error. To fix that you need to execute the following:
+npm install react-scripts --save
+
+Then you can get the ip address where your application will be hosted. By default the port will be 5000.
+
+But for local start you can do a yarn start and once it is successfully compiled you can see the following in the console.
+
+You can now view dummy-static-site in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.225.23:3000
