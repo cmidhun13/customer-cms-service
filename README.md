@@ -110,3 +110,7 @@ You can now view dummy-static-site in the browser.
 
   Local:            http://localhost:3000
   On Your Network:  http://192.168.225.23:3000
+  
+  For Yarn Installation : 
+  
+  npm install -g yarn
